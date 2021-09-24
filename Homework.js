@@ -37,7 +37,7 @@ const crazyDiff = function(givenNumber, defaultNumber = 19){
     let differenceOfDigits = givenNumber > 19 ? (givenNumber - defaultNumber)*3 : -1
     return differenceOfDigits
 }
-console.log(crazyDiff(1))
+console.log(crazyDiff(15))
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
