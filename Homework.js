@@ -99,9 +99,12 @@ console.log(reverseString("Strive School"))
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
-
-/* WRITE YOUR ANSWER HERE */
-
+const upperFirst = function(uppercaseString){
+    let splittedString = uppercaseString.split("")
+    upperCased = splittedString[0].toUpperCase() + uppercaseString.slice(1,)
+    return upperCased
+}
+console.log(upperFirst("strive"))
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
