@@ -5,7 +5,9 @@
  The function should return the sum of just the numbers bigger than 5.
 */
 
-/* WRITE YOUR ANSWER HERE */
+const checkArray = function(){
+    
+}
 
 /* EXTRA 2
  In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, an id and the quantity to be shipped.

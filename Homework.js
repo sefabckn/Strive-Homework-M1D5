@@ -33,7 +33,7 @@ console.log(crazySum(3,3))
 */
 
 const crazyDiff = function(givenNumber, defaultNumber = 19){
-    let differenceOfDigits = givenNumber > 19 ? (givenNumber - defaultNumber)*3 : -1
+    let differenceOfDigits = givenNumber > 19 ? (givenNumber - defaultNumber)*3 : (givenNumber-defaultNumber)
     return differenceOfDigits
 }
 console.log(crazyDiff(15))
