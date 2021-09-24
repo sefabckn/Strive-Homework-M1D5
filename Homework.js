@@ -12,14 +12,21 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+const area = function (l1, l2){
+    return  l1 * l2;
+}
+console.log(area(3,5))
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-/* WRITE YOUR ANSWER HERE */
+const crazySum = function(int1, int2){
+    const comparisonOfInt = (int1 === int2 )? 3*(int1+int2): -1
+    return comparisonOfInt
+
+}
+console.log(crazySum(3,3))
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
