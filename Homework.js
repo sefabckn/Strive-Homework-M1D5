@@ -109,8 +109,13 @@ console.log(upperFirst("strive"))
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+const cutString = function(stringName){
+    
+    let newStringName = stringName.slice(1,-1) 
+    
+    return newStringName
+}
+console.log(cutString("Strive"))
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
