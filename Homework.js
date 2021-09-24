@@ -22,9 +22,8 @@ console.log(area(3,5))
 */
 
 const crazySum = function(int1, int2){
-    const comparisonOfInt = (int1 === int2 )? 3*(int1+int2): -1
+    const comparisonOfInt = (int1 === int2 )? 3*(int1+int2): (int1+int2)
     return comparisonOfInt
-
 }
 console.log(crazySum(3,3))
 
