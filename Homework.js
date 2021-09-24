@@ -33,8 +33,11 @@ console.log(crazySum(3,3))
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+const crazyDiff = function(givenNumber, defaultNumber = 19){
+    let differenceOfDigits = givenNumber > 19 ? (givenNumber - defaultNumber)*3 : -1
+    return differenceOfDigits
+}
+console.log(crazyDiff(1))
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
