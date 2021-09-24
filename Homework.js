@@ -120,8 +120,16 @@ console.log(cutString("Strive"))
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+const giveMeRandom = function(n){
+    let randomArray = []
+   if(n>0 && n<=10){
+       randomArray.push(n)
+       return randomArray
+   }else{
+       return -1
+   }
+}
+console.log(giveMeRandom("5"))
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
 */
