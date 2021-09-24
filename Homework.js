@@ -73,8 +73,18 @@ console.log(strivify("Sefa"))
  HINT: Modulus Operator
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+const check3and7 = function(positiveNumber){
+    if (positiveNumber %3 ===0 && positiveNumber%7===0){
+        return "This number is multiple of 3 and 7"
+    }else if (positiveNumber % 7 === 0){
+        return "This number is multiple of 7"
+    }else if(positiveNumber %3 ===0){
+        return "This number is multiple of 3"
+    }else{
+        return -1
+    }
+}
+console.log(check3and7(42))
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
